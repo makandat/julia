@@ -41,6 +41,8 @@ This function generates a HTML document from the DataFrame 'df'.
 ## Sample program
 
 ### How to run.
+Before run, you must install DataFraames, CSV, Tables packages at HtmlTables directory.
+
 ```
  $ cd /home/user/workspace/julia/HtmlTable # for example
  $ julia test/dataframe.jl
