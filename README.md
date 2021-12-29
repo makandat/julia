@@ -62,11 +62,13 @@ M = [
 df = DataFrame(M, [:MONTH, :CODE, :AMOUNT])
 html = fromDataFrame(df, title="From DataFrame")
 write("./test/result_df.html", html)
-println("test/result_df.html が更新されました。")```
+println("test/result_df.html が更新されました。")
+```
 
 ## Output example
 
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -134,5 +136,6 @@ td {
 </table>
 
 </body>
-</html>```
+</html>
+```
  
