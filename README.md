@@ -5,10 +5,10 @@ Julia packages include only 'HtmlTable' package which has three functions below
 This function generates a HTML document from the Matrix 'mat'.
 
 ### Parameters
- mat: Matrix input
- columns: Column names of the matrix 'mat'.
- title: HTML title and h1 header.
- rownum: If true then append the row number column.
+- mat: Matrix input
+- columns: Column names of the matrix 'mat'.
+- title: HTML title and h1 header.
+- rownum: If true then append the row number column.
 
 ### Return value
  HTML which is generated from the matrix 'mat'.
@@ -18,9 +18,9 @@ This function generates a HTML document from the Matrix 'mat'.
 This function generates a HTML document from the DataFrame 'df'.
 
 ### Parameters
- df: DataFrame input.
- title: HTML title and h1 header.
- rownum: If true then append the row number column.
+- df: DataFrame input.
+- title: HTML title and h1 header.
+- rownum: If true then append the row number column.
 
 ### Return value
  HTML which is generated from the DataFrame 'df'.
@@ -29,11 +29,14 @@ This function generates a HTML document from the DataFrame 'df'.
  This function generates a HTML document from the CSV file which path is 'path'.
 
 ### Parameters
- path: The path of the CSV file.
- header: If true then the first row is column names.
- delimiter: A character as separator between columns.
- title: HTML title and h1 header.
- rownum: If true then append the row number column.
+- path: The path of the CSV file.
+- header: If true then the first row is column names.
+- delimiter: A character as separator between columns.
+- title: HTML title and h1 header.
+- rownum: If true then append the row number column.
+
+### Return value
+ HTML which is generated from the CSV file.
 
 ## Sample program
 
