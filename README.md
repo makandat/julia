@@ -1,4 +1,4 @@
-# julia
+# julia/HtmlTable
 Julia packages include only 'HtmlTable' package which has three functions below
 
 ## 1. function fromMatrix(mat::Matrix, columns::Vector; title="HTML Table", rownum=false)
