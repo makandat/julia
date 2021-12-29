@@ -38,8 +38,12 @@ This function generates a HTML document from the DataFrame 'df'.
 ## Sample program
 
 ### How to run.
+```
  $ cd /home/user/workspace/julia/HtmlTable # for example
  $ julia test/dataframe.jl
+```
+
+### Test program 'test/dataframe.jl'
 
 ```import Pkg
 println(pwd())
